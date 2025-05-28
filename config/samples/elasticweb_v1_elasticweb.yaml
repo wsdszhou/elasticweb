@@ -1,0 +1,10 @@
+apiVersion: elasticweb.com.jwzhou/v1
+kind: ElasticWeb
+metadata:
+  name: elasticweb-sample
+  namespace: dev
+spec:
+ image: python:3.8.5
+ port: 30005
+ singlePodQPS: 500
+ totalQPS: 600 
